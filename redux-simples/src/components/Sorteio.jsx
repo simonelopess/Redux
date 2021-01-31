@@ -2,12 +2,13 @@ import React from 'react'
 import Card from './Card';
 
 export default props => {
+   
     return (
         <Card title="Sorte de um número" purple>
             <div>
                 <span>
                     <span>Resultado: </span>
-                    <strong>8</strong>
+                    <strong>10</strong>
                 </span>
             </div>
         </Card>

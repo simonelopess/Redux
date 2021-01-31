@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Intervalo from './components/Intervalo';
 import Media from './components/Media';
@@ -8,6 +8,7 @@ import Sorteio from './components/Sorteio';
 
 
 function App() {
+
   return (
     <div className="App">
       <h1>Exercício React-Redux</h1>
@@ -15,7 +16,7 @@ function App() {
         <Intervalo></Intervalo>
       </div>
       <div className="linha">
-        <Media/>
+        <Media />
         <Soma/>
         <Sorteio/>
       </div>
